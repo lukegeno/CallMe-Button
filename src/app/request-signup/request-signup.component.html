@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+    </div>
+      <form (ngSubmit)="signupSubmit()">
+          <h2>Sign up</h2>
+          <p>Please enter your contact details and we will be in touch with you as soon as possible regarding account activation</p>
+        <label>
+          <input type="text" [(ngModel)]="signupCreds.fullName"
+          name="fullName" placeholder="Full name" />
+        </label>
+      <br />
+
+        <label>
+          <input type="text" [(ngModel)]="signupCreds.company"
+          name="company" placeholder="Company" />
+        </label>
+      <br />
+        <label>
+          <input type="text" [(ngModel)]="signupCreds.email"
+          name="email" placeholder="Business email" />
+        </label>
+      <br />
+        <label>
+          <input type="text" [(ngModel)]="signupCreds.phoneNumber"
+          name="phoneNumber" placeholder="Phone number" />
+        </label>
+      <br />
+        <label>
+          <select [(ngModel)]="signupCreds.planType"
+          name="planType">
+            <option selected>Choose a plan</option>
+            <option>Power</option>
+            <option>Professional</option>
+            <option>Enterprise</option>
+          </select>
+        </label>
+        <br />
+        <button class="btn navbar-btn"><b>Submit</b></button>
+      </form>
+</div>

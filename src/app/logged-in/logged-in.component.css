@@ -1,0 +1,53 @@
+@media (max-width: 850px) {
+
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+    }
+
+    .btn {
+        align-content: center;
+        width: 80vw;
+        padding-top: 7.5vh;
+        padding-bottom: 7.5vh;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 850px) and (max-width: 1800px) {
+
+ h2 {
+     text-align: center;
+     margin-top: 5vh;
+     margin-bottom: 1vh;
+ }
+
+ a {
+     text-align: center;
+ }
+
+ .btn {
+     padding-top: 7.5vh;
+     padding-bottom: 7.5vh;
+     width: 32vw;
+     font-size: 1em;
+ }
+
+ p {
+     text-align: center;
+     font-size: 1em;
+ }
+
+}

@@ -1,0 +1,64 @@
+    .sign-up {
+        color: white;
+        background-color: orange;
+        border: 0;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+    }
+
+    .log-in {
+        color: orange;
+        border: 0;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .one {
+        margin-right: 5.5vw;
+    }
+
+    .button-jawns {
+        display: flex;
+        flex-direction: column;
+        margin-left: none;
+    }
+
+    .two {
+        margin-right: 2vw;
+        margin-left: 0;
+        display: inline-block;
+    }
+
+@media (min-width: 991px) and (max-width: 1800px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-collapse {
+        flex-grow: unset;
+    }
+
+    
+
+   
+}
+
+@media (max-width: 991px) {
+
+    .navbar-btn {
+        width: 88vw;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    a {
+        text-align: center;
+    }
+
+}
+
+

@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+      <h2>Log in</h2>
+      <p>Please enter login credentials for access to your account.</p>      
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+    <form (ngSubmit)="loginSubmit()">
+            
+            <label>
+              <input type="text" [(ngModel)]="formCreds.email"
+              name="email" placeholder="Email" />
+            </label>
+          <br />
+    
+            <label>
+              <input type="password" [(ngModel)]="formCreds.password"
+              name="password" placeholder="Password" />
+            </label>
+          <br />
+            <button class="btn navbar-btn"><b>Go!</b></button>
+          </form>
+    </div>
+  </div>
+</div>
