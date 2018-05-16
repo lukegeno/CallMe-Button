@@ -9,3 +9,8 @@ img {
 h2, p {
     text-align: center;
 }
+
+.navbar {
+    background-color: black;
+}
+
