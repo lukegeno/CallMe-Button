@@ -84,4 +84,5 @@ export class SignupCredentials {
   company: string;
   email: string;
   phoneNumber: string;
+  planType: string;
 }
