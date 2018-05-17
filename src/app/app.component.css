@@ -16,11 +16,15 @@
 
     .one {
         margin-right: 5.5vw;
-        margin-top: 3.5vh;
+        margin-top: 3.5vh;    
     }
 
     .one a {
         color: black;
+    }
+
+    .navbar {
+        height: 25vh;
     }
 
     .button-jawns {
