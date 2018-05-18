@@ -1,16 +1,16 @@
 img {
-    width: 15%;
-    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 12vh;
+    width: auto;
 }
 
 h2, p {
     text-align: center;
 }
 
-.navbar {
-    background-color: black;
+h2 {
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
-

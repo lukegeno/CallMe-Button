@@ -1,3 +1,17 @@
+.animations {
+    background-color: blue;
+    position: fixed;
+    border-radius: 50%;
+    padding: 3vh 1vw;
+    bottom: 0;
+    right: 0;
+    height: 15vh;
+    width: auto;
+    margin-bottom: 3vh;
+    margin-right: 2vw;
+}
+
+
 @media (max-width: 850px) {
 
     .container{
