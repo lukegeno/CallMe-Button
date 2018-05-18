@@ -18,6 +18,7 @@
               name="password" placeholder="Password" />
             </label>
           <br />
+            <div *ngIf="ifErrMsg">{{displayMsg}}</div>
             <button class="btn navbar-btn"><b>Go!</b></button>
           </form>
     </div>

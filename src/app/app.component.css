@@ -1,3 +1,9 @@
+    footer {
+        text-align: center;
+        background-color: lightgrey;
+        position: fixed;
+    }    
+    
     .sign-up {
         color: white;
         background-color: orange;
@@ -21,10 +27,6 @@
 
     .one a {
         color: black;
-    }
-
-    .navbar {
-        height: 25vh;
     }
 
     .button-jawns {
@@ -55,10 +57,10 @@
     .navbar-collapse {
         flex-grow: unset;
     }
-
-    
-
    
+    .navbar {
+        height: 25vh;
+    }
 }
 
 @media (max-width: 991px) {

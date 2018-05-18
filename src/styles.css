@@ -1,22 +1,17 @@
 .animations {
-    background-color: blue;
     position: fixed;
     border-radius: 50%;
     padding: 3vh 1vw;
     bottom: 0;
     right: 0;
-    height: 15vh;
+    height: 22vh;
     width: auto;
-    margin-bottom: 3vh;
-    margin-right: 2vw;
+    margin-bottom: 2vh;
+    margin-right: 1vw;
 }
 
 
 @media (max-width: 850px) {
-
-    .container{
-        background-color: pink;
-    }
 
     h1{
         font-size: 2.5em;

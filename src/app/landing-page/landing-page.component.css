@@ -1,5 +1,4 @@
 .container {
-    margin-top: 12vh;
     display: flex;
     justify-content: space-between;
 }
@@ -17,12 +16,25 @@
 }
 
 
-
-
 h3 {
     margin-bottom: 2vh;
 }
 
+
+@media (min-width: 991px) and (max-width: 1800px) {
+
+    .container {
+        margin-top: 12vh;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+
+
+    
+}
 
 /* @media (max-width: 800px) {
     

@@ -10,6 +10,9 @@ import { LoginCredentials, UserService } from '../api/user.service';
 })
 export class LoginComponent implements OnInit {
 
+  ifErrMsg: boolean = false;
+  displayMsg: string;
+
   formCreds: LoginCredentials = new LoginCredentials();
 
   constructor(
@@ -28,6 +31,9 @@ export class LoginComponent implements OnInit {
       })
       .catch((err) => {
         console.log('Login error');
+        console.log(err.error.message)
+        this.ifErrMsg = true;
+        this.displayMsg = err.error.message;
         console.log(err);
       });
   }

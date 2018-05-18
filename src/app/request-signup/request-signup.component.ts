@@ -10,12 +10,17 @@ import { SignupCredentials, UserService } from '../api/user.service';
 })
 export class RequestSignupComponent implements OnInit {
 
+  ifSubmitMsg: boolean = false;
+  displayMessage: string;
+
   signupCreds: SignupCredentials = new SignupCredentials();
 
   constructor(
     public userTruc: UserService,
     private resTruc: Router
-  ) { }
+  ) {
+    this.signupCreds.planType = "Choose a plan";
+   }
 
   ngOnInit() {
   }
